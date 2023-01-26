@@ -46,7 +46,7 @@ const filterPrice = (price)=>{
             {/* filter price */}
             <div>
                 <p className='font-bold text-gray-500'>Filter Price</p>
-                <div className='flex justify-between max-w-[390px] w-full'>
+                <div className='flex flex-wrap justify-between max-w-[390px] w-full'>
                     <button onClick={()=>filterPrice('1000')} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Rs1000</button>
                     <button onClick={()=>filterPrice('2500')} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Rs2500</button>
                     <button onClick={()=>filterPrice('3000')} className='m-1 border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white'>Rs3000</button>
